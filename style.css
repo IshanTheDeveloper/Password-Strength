@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 3px 3px 5px rgba(128, 128, 128, 0.5);
+}
+
+#main-heading {
+  background-color: white;
+  font-size: 5vw;
+  width: 90%;
+  text-align: center;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#images img {
+  max-width: 100%;
+}
+#img1 {
+  height: 3rem;
+}
+#img2 {
+  height: 3.3rem;
+}
+
+body {
+  background-color: rgb(148, 214, 214);
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  background-color: white;
+  width: 35vw;
+  height: 20rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 3px 3px grey;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+#input {
+  width: 90%;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+#lc {
+  font-size: 1.5vw;
+  color: grey;
+}
+#uc {
+  font-size: 1.5vw;
+  color: grey;
+}
+#num {
+  font-size: 1.5vw;
+  color: grey;
+}
+#symbol {
+  font-size: 1.5vw;
+  color: grey;
+}
+p {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 1.5vw;
+}
+#chars,
+#strong {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.note {
+  display: flex;
+  justify-content: end;
+  height: 100vh;
+  margin-top: 3rem;
+}
+#notes {
+  color: red;
+  font-size: 1.4vw;
+}

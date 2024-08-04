@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Strength</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <span class="heading">
+      <p id="main-heading">Password Strength</p>
+      <p id="images">
+        <a href="https://github.com/IshanTheDeveloper" target="_blank">
+          <img src="github.png" alt="" id="img1" />
+        </a>
+        <a href="www.linkedin.com/in/ishan-jaiswal-6146202b6" target="_blank">
+          <img src="linkedln.png" alt="" id="img2" />
+        </a>
+      </p>
+    </span>
+    <div class="main-container">
+      <div class="container">
+        <div class="container-area">
+          <div class="input-area">
+            <input
+              type="text"
+              min="8"
+              max="32"
+              placeholder="Enter the password"
+              id="input"
+            />
+          </div>
+          <div class="indicators">
+            <div id="lc">Lowercase</div>
+            <div id="uc">Uppercase</div>
+            <div id="num">Numbers</div>
+            <div id="symbol">Symbols</div>
+          </div>
+          <p>Password has <strong id="chars">0</strong> chars</p>
+          <p>Your password is <strong id="strength"></strong></p>
+          <div class="note">
+            <p id="notes">
+              *Note : All conditions must be cleared to create a password
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
